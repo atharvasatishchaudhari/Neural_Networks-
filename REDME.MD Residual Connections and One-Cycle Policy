@@ -1,0 +1,9 @@
+This repository contains implementations of deep learning models for CIFAR-10 classification, 
+including a **Custom ResNet with One Cycle Policy and Learning Rate Finder**, CNN-based models, 
+and data augmentation techniques. The **Custom ResNet model** includes residual blocks for efficient 
+deep learning, leverages **One Cycle Learning Rate Policy** for optimal training, and utilizes a **Learning Rate Finder** 
+to determine the best learning rate. The repository is structured with separate folders for each model 
+(`ResNet_Model`, `CNN_Model`, `Data_Augmentation`), each containing its respective **README.md** file for clarity. 
+To train the ResNet model, run the **learning rate finder first** to select `lr_max`, then train the model using the 
+One Cycle Policy. This structured approach ensures efficient training, reproducibility, and well-documented code for
+future reference.
